@@ -3,7 +3,7 @@ import { MongoClient } from 'mongodb';
 import path from 'path';
 
 async function start(){
-  const url = `mongodb+srv://fsv-server:<password>>@********.*******.mongodb.net/?retryWrites=true&w=majority`;
+  const url = `mongodb+srv://fsv-server:<password>@********.*******.mongodb.net/?retryWrites=true&w=majority`;
   const client = new MongoClient(url);
 
   await client.connect();
